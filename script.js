@@ -1,10 +1,4 @@
-ReactDOM.render(
-	<App />,
-  	document.getElementById('root')
-
-);
-
-	class App extends React.Component {
+class App extends React.Component {
 	  constructor() {
 	    super();
 	    this.state = {
@@ -67,3 +61,5 @@ ReactDOM.render(
 	    );
 	  }
 	};
+
+ReactDOM.render(<App />, document.getElementById('root'));
